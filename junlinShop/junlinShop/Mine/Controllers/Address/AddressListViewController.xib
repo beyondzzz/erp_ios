@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddressListViewController">
+            <connections>
+                <outlet property="tableView" destination="mAT-n0-pGV" id="SxL-1U-y8z"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mAT-n0-pGV">
+                    <rect key="frame" x="0.0" y="20" width="375" height="602"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="NL3-DA-wMM"/>
+                        <outlet property="delegate" destination="-1" id="CGN-cJ-nyy"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MDu-Rq-vZP">
+                    <rect key="frame" x="87" y="628" width="200" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="KSa-dx-YHk"/>
+                        <constraint firstAttribute="width" constant="200" id="eyP-5g-7dW"/>
+                    </constraints>
+                    <state key="normal" title="新建地址" backgroundImage="GreenBack_Image">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="addAddress:" destination="-1" eventType="touchUpInside" id="dWa-iU-S11"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="MDu-Rq-vZP" secondAttribute="bottom" constant="7" id="2s3-XM-2ri"/>
+                <constraint firstItem="MDu-Rq-vZP" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="48W-2D-cp7"/>
+                <constraint firstItem="mAT-n0-pGV" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="CFt-Hf-mJR"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="mAT-n0-pGV" secondAttribute="trailing" id="MzU-L7-mMC"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="mAT-n0-pGV" secondAttribute="bottom" constant="45" id="aFD-CX-RpS"/>
+                <constraint firstItem="mAT-n0-pGV" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="fgS-jz-XwJ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="GreenBack_Image" width="75" height="20"/>
+    </resources>
+</document>

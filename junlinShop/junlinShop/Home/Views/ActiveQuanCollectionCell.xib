@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ActiveQuanCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="142" height="139"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="142" height="139"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8gj-GD-U6s">
+                        <rect key="frame" x="0.0" y="5" width="142" height="129"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7S-Nj-jTQ">
+                                <rect key="frame" x="57" y="15.5" width="49.5" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="满1000元可用" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9tx-GI-MCL">
+                                <rect key="frame" x="5" y="56.5" width="130.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W63-Pg-A1x">
+                                <rect key="frame" x="33" y="83.5" width="75" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="rnB-by-zGj"/>
+                                    <constraint firstAttribute="width" constant="75" id="xxt-U1-fav"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="立即领取"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="STs-bv-8ut">
+                                <rect key="frame" x="41.5" y="29.5" width="9.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.33333333329999998" green="0.68235294120000001" blue="0.23921568630000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="STs-bv-8ut" firstAttribute="bottom" secondItem="a7S-Nj-jTQ" secondAttribute="bottom" constant="-3" id="3NE-UU-ldx"/>
+                            <constraint firstItem="STs-bv-8ut" firstAttribute="centerX" secondItem="8gj-GD-U6s" secondAttribute="centerX" constant="-25" id="3Yn-la-hy6"/>
+                            <constraint firstItem="a7S-Nj-jTQ" firstAttribute="centerX" secondItem="8gj-GD-U6s" secondAttribute="centerX" constant="10" id="5Cn-Xt-eGO"/>
+                            <constraint firstItem="9tx-GI-MCL" firstAttribute="centerY" secondItem="8gj-GD-U6s" secondAttribute="centerY" id="Bka-Jf-5kk"/>
+                            <constraint firstItem="9tx-GI-MCL" firstAttribute="top" secondItem="a7S-Nj-jTQ" secondAttribute="bottom" constant="6" id="Gcq-vP-Xxs"/>
+                            <constraint firstItem="W63-Pg-A1x" firstAttribute="top" secondItem="9tx-GI-MCL" secondAttribute="bottom" constant="10" id="Hec-zv-a8X"/>
+                            <constraint firstItem="W63-Pg-A1x" firstAttribute="centerX" secondItem="9tx-GI-MCL" secondAttribute="centerX" id="evU-Ub-wrT"/>
+                            <constraint firstItem="9tx-GI-MCL" firstAttribute="leading" secondItem="8gj-GD-U6s" secondAttribute="leading" constant="5" id="l2w-l2-4hE"/>
+                            <constraint firstItem="9tx-GI-MCL" firstAttribute="centerX" secondItem="8gj-GD-U6s" secondAttribute="centerX" id="u9j-D5-Yke"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8gj-GD-U6s" secondAttribute="trailing" id="3gt-Fi-Iya"/>
+                <constraint firstItem="8gj-GD-U6s" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="5QF-Yd-3Hb"/>
+                <constraint firstItem="8gj-GD-U6s" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="xKd-vr-2rR"/>
+                <constraint firstAttribute="bottom" secondItem="8gj-GD-U6s" secondAttribute="bottom" constant="5" id="z3d-1d-iE8"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="142" height="139"/>
+            <connections>
+                <outlet property="backView" destination="8gj-GD-U6s" id="laG-UR-L8S"/>
+                <outlet property="countLab" destination="a7S-Nj-jTQ" id="hgM-De-Yk9"/>
+                <outlet property="getBtn" destination="W63-Pg-A1x" id="r3s-a7-6ih"/>
+                <outlet property="titleLab" destination="9tx-GI-MCL" id="eXW-EF-n4D"/>
+            </connections>
+            <point key="canvasLocation" x="19" y="110"/>
+        </collectionViewCell>
+    </objects>
+</document>

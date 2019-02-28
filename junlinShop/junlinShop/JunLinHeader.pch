@@ -1,0 +1,20 @@
+//
+//  JunLinHeader.pch
+//  junlinShop
+//
+//  Created by 叶旺 on 2017/11/20.
+//  Copyright © 2017年 叶旺. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "BaseHeader.h"
+
+#endif
+
+#ifndef __IPHONE_9_0
+#warning "This project uses features only available in iOS SDK 10.0 and later."
+#endif

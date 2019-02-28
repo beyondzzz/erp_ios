@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform:ios,                   ‘10.0’
+target ‘junlinShop’ do
+pod 'SDWebImage', '~> 4.2.2’
+pod 'WebViewJavascriptBridge',  '4.1.4'
+pod 'SVProgressHUD', '~> 2.2.2'
+pod 'AFNetworking', '~> 3.1.0'
+pod 'MJRefresh', '~> 3.1.15'
+pod 'MJExtension', '~> 3.0.13'
+pod 'Masonry', '~> 1.1.0'
+pod 'IQKeyboardManager', '~> 4.0.10'
+pod 'ReactiveObjC', '~> 3.0.0'
+pod 'FMDB', '~> 2.7.2'
+pod 'YYCache'
+end

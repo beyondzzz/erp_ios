@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="OrderDetailBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="372-JZ-9RF">
+                    <rect key="frame" x="10" y="7" width="72" height="32"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="6xW-Hp-aVV"/>
+                        <constraint firstAttribute="width" constant="72" id="f8W-ee-8Ej"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="删除订单">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VsD-Ic-eY8">
+                    <rect key="frame" x="293" y="7" width="72" height="32"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="72" id="Ck6-29-J0X"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="再次购买">
+                        <color key="titleColor" red="0.33333333329999998" green="0.68235294120000001" blue="0.23921568630000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cI-G9-Mgt">
+                    <rect key="frame" x="216" y="7" width="72" height="32"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="72" id="nij-NM-a9X"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="评价晒单">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CXK-1l-8mO">
+                    <rect key="frame" x="139" y="7" width="72" height="32"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="72" id="CjA-XR-PNz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="联系客服">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1SZ-Vf-seT">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="0.5"/>
+                    <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="G7a-fu-VHW"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="8cI-G9-Mgt" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="6he-w0-7fM"/>
+                <constraint firstItem="372-JZ-9RF" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="6mZ-zQ-TaO"/>
+                <constraint firstItem="372-JZ-9RF" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="AbK-NG-Y8A"/>
+                <constraint firstItem="CXK-1l-8mO" firstAttribute="height" secondItem="372-JZ-9RF" secondAttribute="height" id="Am5-A4-xBS"/>
+                <constraint firstItem="8cI-G9-Mgt" firstAttribute="height" secondItem="372-JZ-9RF" secondAttribute="height" id="ReY-1Z-Hca"/>
+                <constraint firstItem="VsD-Ic-eY8" firstAttribute="leading" secondItem="8cI-G9-Mgt" secondAttribute="trailing" constant="5" id="aMJ-xr-9EK"/>
+                <constraint firstItem="CXK-1l-8mO" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="aNv-DZ-oL2"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="1SZ-Vf-seT" secondAttribute="trailing" id="d14-fm-0ub"/>
+                <constraint firstItem="1SZ-Vf-seT" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="ePw-Ky-WTW"/>
+                <constraint firstItem="VsD-Ic-eY8" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="gUx-g3-Exc"/>
+                <constraint firstItem="1SZ-Vf-seT" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="gg8-JY-Df9"/>
+                <constraint firstItem="8cI-G9-Mgt" firstAttribute="leading" secondItem="CXK-1l-8mO" secondAttribute="trailing" constant="5" id="qMD-JV-RkQ"/>
+                <constraint firstItem="VsD-Ic-eY8" firstAttribute="height" secondItem="372-JZ-9RF" secondAttribute="height" id="v6h-zs-hkF"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="VsD-Ic-eY8" secondAttribute="trailing" constant="10" id="xZ2-K1-S5B"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="centerBtn" destination="8cI-G9-Mgt" id="Cq4-Yl-GQX"/>
+                <outlet property="deleteBtn" destination="372-JZ-9RF" id="M3J-CR-0vC"/>
+                <outlet property="leftBtn" destination="CXK-1l-8mO" id="HBN-k3-Wu8"/>
+                <outlet property="rightBtn" destination="VsD-Ic-eY8" id="scM-x2-DQn"/>
+            </connections>
+            <point key="canvasLocation" x="39.5" y="-83"/>
+        </view>
+    </objects>
+</document>
