@@ -2233,7 +2233,7 @@
 				TargetAttributes = {
 					1C2253C21FBFFBF0009D525B = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					1C2253DD1FBFFBF0009D525B = {
 						CreatedOnToolsVersion = 9.1;
@@ -2790,8 +2790,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 28J88G3NGL;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MFNG3BQ6Y;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/junlinShop/SDKs/iOS/common/common_ios_1.4.2/normal",
 					"$(PROJECT_DIR)/junlinShop/SDKs/iOS/share/share_ios_6.8.2",
@@ -2834,10 +2834,10 @@
 					"$(PROJECT_DIR)/junlinShop/SDKs/SDK/ShareSDK/Support/PlatformSDK/APSocialSDK",
 					"$(PROJECT_DIR)/junlinShop/SDKs/SDK/AlipaySDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.01zhuanche.SQBusDriver.ShouYue;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yw.JunLinShoptest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "babf77db-865f-4366-b8b8-573179398d2e";
-				PROVISIONING_PROFILE_SPECIFIER = SQBusDriverShouYue_Dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/junlinShop/BaseView\"";
 			};
@@ -2849,9 +2849,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 28J88G3NGL;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MFNG3BQ6Y;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/junlinShop/SDKs/iOS/common/common_ios_1.4.2/normal",
 					"$(PROJECT_DIR)/junlinShop/SDKs/iOS/share/share_ios_6.8.2",
@@ -2894,10 +2894,10 @@
 					"$(PROJECT_DIR)/junlinShop/SDKs/SDK/ShareSDK/Support/PlatformSDK/APSocialSDK",
 					"$(PROJECT_DIR)/junlinShop/SDKs/SDK/AlipaySDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.01zhuanche.SQBusDriver.ShouYue;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yw.JunLinShoptest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "665b8e78-50c2-4ea1-b325-78335dcb4405";
-				PROVISIONING_PROFILE_SPECIFIER = SQBusDriverShouYue_AdHoc;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/junlinShop/BaseView\"";
 			};
