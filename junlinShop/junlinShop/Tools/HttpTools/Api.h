@@ -18,7 +18,7 @@
 #define YWBaseURL            @""
 #define YWHWebURL             @""
 #else
-#define YWBaseURL            @"http://47.93.58.195:8080/JLMIS/"
+#define YWBaseURL            @"http://39.105.115.214:8080/JLMIS/"
 #define YWWebURL             @""
 #endif
 
